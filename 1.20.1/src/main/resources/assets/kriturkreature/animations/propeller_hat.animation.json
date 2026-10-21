@@ -1,0 +1,67 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.player.propellerspin": {
+			"loop": true,
+			"animation_length": 1.75,
+			"bones": {
+				"propellerhat_blade1": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [-1, 0, 0]
+						},
+						"0.5": {
+							"vector": [-1, 0, 1]
+						},
+						"0.75": {
+							"vector": [-1, 0, 2]
+						},
+						"1.0": {
+							"vector": [-1, 0, 3]
+						},
+						"1.25": {
+							"vector": [0, 0, 3]
+						},
+						"1.5": {
+							"vector": [1, 0, 3]
+						},
+						"1.75": {
+							"vector": [2, 0, 3]
+						}
+					}
+				},
+				"propellerhat_blade2": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [1, 0, 0]
+						},
+						"0.5": {
+							"vector": [1, 0, -1]
+						},
+						"0.75": {
+							"vector": [1, 0, -2]
+						},
+						"1.0": {
+							"vector": [1, 0, -3]
+						},
+						"1.25": {
+							"vector": [0, 0, -3]
+						},
+						"1.5": {
+							"vector": [-1, 0, -3]
+						},
+						"1.75": {
+							"vector": [-2, 0, -3]
+						}
+					}
+				}
+			}
+		}
+	}
+}

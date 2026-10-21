@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "BYR",
+    "G O"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "B": {
+      "item": "minecraft:blue_wool"
+    },
+    "Y": {
+      "item": "minecraft:yellow_wool"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "G": {
+      "item": "minecraft:green_wool"
+    },
+    "O": {
+      "item": "minecraft:orange_wool"
+    }
+  },
+  "result": {
+    "item": "kriturkreature:propeller_hat",
+    "count": 1
+  }
+}

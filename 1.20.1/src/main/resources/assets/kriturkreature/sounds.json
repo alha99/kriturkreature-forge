@@ -1,0 +1,14 @@
+{
+  "kritur_happy_1": { "subtitle": "kriturkreature.subtitle.kritur_happy", "sounds": [ { "name": "kriturkreature:kritur_happy_1", "stream": false } ] },
+  "kritur_happy_2": { "subtitle": "kriturkreature.subtitle.kritur_happy", "sounds": [ { "name": "kriturkreature:kritur_happy_2", "stream": false } ] },
+  "kritur_happy_3": { "subtitle": "kriturkreature.subtitle.kritur_happy", "sounds": [ { "name": "kriturkreature:kritur_happy_3", "stream": false } ] },
+  "kritur_happy_4": { "subtitle": "kriturkreature.subtitle.kritur_happy", "sounds": [ { "name": "kriturkreature:kritur_happy_4", "stream": false } ] },
+  "kritur_sad_1": { "subtitle": "kriturkreature.subtitle.kritur_sad", "sounds": [ { "name": "kriturkreature:kritur_sad_1", "stream": false } ] },
+  "kritur_sad_2": { "subtitle": "kriturkreature.subtitle.kritur_sad", "sounds": [ { "name": "kriturkreature:kritur_sad_2", "stream": false } ] },
+  "kritur_sad_3": { "subtitle": "kriturkreature.subtitle.kritur_sad", "sounds": [ { "name": "kriturkreature:kritur_sad_3", "stream": false } ] },
+  "kritur_hurt_1": { "sounds": [ { "name": "kriturkreature:kritur_hurt_1", "stream": false } ] },
+  "kritur_hurt_2": { "sounds": [ { "name": "kriturkreature:kritur_hurt_2", "stream": false } ] },
+  "kritur_death_1": { "sounds": [ { "name": "kriturkreature:kritur_death_1", "stream": false } ] },
+  "kritur_mad": { "sounds": [ { "name": "kriturkreature:kritur_mad", "stream": false } ] },
+  "kritur_idle": { "sounds": [ { "name": "kriturkreature:kritur_idle", "stream": false } ] }
+}

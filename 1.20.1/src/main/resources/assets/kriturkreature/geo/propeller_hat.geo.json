@@ -1,0 +1,102 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "armorHead",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "propellerhat_helmet",
+					"parent": "armorHead",
+					"pivot": [1, 35.75, 2],
+					"cubes": [
+						{
+							"origin": [-3, 32, -3],
+							"size": [6, 2, 6],
+							"uv": {
+								"north": {"uv": [6, 6], "uv_size": [6, 2]},
+								"east": {"uv": [0, 6], "uv_size": [6, 2]},
+								"south": {"uv": [18, 6], "uv_size": [6, 2]},
+								"west": {"uv": [12, 6], "uv_size": [6, 2]},
+								"up": {"uv": [6, 0], "uv_size": [6, 6]},
+								"down": {"uv": [12, 6], "uv_size": [6, -6]}
+							}
+						},
+						{
+							"origin": [-2, 34, -2],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [4, 12], "uv_size": [4, 1]},
+								"east": {"uv": [0, 12], "uv_size": [4, 1]},
+								"south": {"uv": [12, 12], "uv_size": [4, 1]},
+								"west": {"uv": [8, 12], "uv_size": [4, 1]},
+								"up": {"uv": [4, 8], "uv_size": [4, 4]},
+								"down": {"uv": [8, 12], "uv_size": [4, -4]}
+							}
+						},
+						{
+							"origin": [-1, 35, -1],
+							"size": [2, 1, 2],
+							"uv": {
+								"north": {"uv": [2, 15], "uv_size": [2, 1]},
+								"east": {"uv": [0, 15], "uv_size": [2, 1]},
+								"south": {"uv": [6, 15], "uv_size": [2, 1]},
+								"west": {"uv": [4, 15], "uv_size": [2, 1]},
+								"up": {"uv": [2, 13], "uv_size": [2, 2]},
+								"down": {"uv": [4, 15], "uv_size": [2, -2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "propellerhat_blade1",
+					"parent": "propellerhat_helmet",
+					"pivot": [-1, 35.75, -1],
+					"cubes": [
+						{
+							"origin": [-2, 35.75, -2],
+							"size": [2, 0.25, 1],
+							"uv": {
+								"north": {"uv": [9, 14], "uv_size": [2, 0]},
+								"east": {"uv": [8, 14], "uv_size": [1, 0]},
+								"south": {"uv": [12, 14], "uv_size": [2, 0]},
+								"west": {"uv": [11, 14], "uv_size": [1, 0]},
+								"up": {"uv": [9, 13], "uv_size": [2, 1]},
+								"down": {"uv": [11, 14], "uv_size": [2, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "propellerhat_blade2",
+					"parent": "propellerhat_helmet",
+					"pivot": [1, 35.75, 2],
+					"cubes": [
+						{
+							"origin": [0, 35.75, 1],
+							"size": [2, 0.25, 1],
+							"uv": {
+								"north": {"uv": [9, 15], "uv_size": [2, 0]},
+								"east": {"uv": [8, 15], "uv_size": [1, 0]},
+								"south": {"uv": [12, 15], "uv_size": [2, 0]},
+								"west": {"uv": [11, 15], "uv_size": [1, 0]},
+								"up": {"uv": [9, 14], "uv_size": [2, 1]},
+								"down": {"uv": [11, 15], "uv_size": [2, -1]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

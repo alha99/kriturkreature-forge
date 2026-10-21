@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="CC0-1.0"
+issueTrackerURL=""
+[[mods]]
+modId="kriturkreature"
+version="1.0.0"
+displayName="KriturKreature"
+credits="Alluttaja / Aleksi H."
+authors="Alluttaja"
+description='''This is a mod that adds a new mob called the Kritur. Based on a character from a streamer named Kritur.'''
+logoFile="assets/kriturkreature/icon.png"
+[[dependencies.kriturkreature]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.kriturkreature]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[4.3,)"
+    ordering="NONE"
+    side="BOTH"

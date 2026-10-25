@@ -1,6 +1,6 @@
 # KriturKreature
 
-A Minecraft mod that adds a creature called Kritur which is a mascot / character based on a Twitch streamer Kritur's -Kritur emotes.
+This is a Minecraft mod that adds a creature called Kritur, a tamable mob based on a Twitch streamer's (Kritur's) emote / character designs.
 
 ## Structure
 

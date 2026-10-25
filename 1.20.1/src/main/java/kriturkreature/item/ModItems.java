@@ -65,7 +65,7 @@ public class ModItems {
 
         @Override public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
             controllers.add(new AnimationController<>(this, "propeller_controller", 0, state -> {
-                state.getController().setAnimationSpeed(6.0f);
+                state.getController().setAnimationSpeed(10.0f);
                 return state.setAndContinue(RawAnimation.begin().thenLoop("animation.player.propellerspin"));
             }));
         }

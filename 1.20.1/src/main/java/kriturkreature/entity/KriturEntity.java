@@ -281,7 +281,7 @@ public class KriturEntity extends TamableAnimal implements GeoEntity {
                 return InteractionResult.sidedSuccess(level().isClientSide());
             }
 
-            if (isPropellerHat) {
+            if (isPropellerHat && !isBaby()) {
                 if (!level().isClientSide()) {
                     if (!hasPropellerHat()) {
                         if (!player.getAbilities().instabuild) held.shrink(1);

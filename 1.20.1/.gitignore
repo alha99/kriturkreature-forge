@@ -1,15 +1,27 @@
-build/
+# Gradle
 .gradle/
+build/
+out/
 bin/
-run/
-*.iml
-*.ipr
-*.iws
+libs/
+*.jar
+
+# IDE
 .idea/
+*.iml
+.vscode/
+*.classpath
+*.project
 
 # OS
 .DS_Store
 Thumbs.db
 
+# Run directory
+run/
+
 # Logs
 *.log
+
+# Local config
+local.properties
